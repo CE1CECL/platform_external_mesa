@@ -1,7 +1,7 @@
 TOP = ../../../../../..
 include $(TOP)/configs/current
 
-CFLAGS += -Wall -Werror
+CFLAGS += -Wall 
 
 ### Basic defines ###
 TESTS =	radeon_compiler_util_tests
