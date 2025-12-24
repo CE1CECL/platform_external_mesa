@@ -33,7 +33,7 @@
 #else
 #error "Unsupported platform"
 #endif
-
+#define PIPE_ATOMIC_OS_UNLOCKED
 
 #if defined(PIPE_ATOMIC_ASM_GCC_X86_64)
 #define PIPE_ATOMIC "GCC x86_64 assembly"
