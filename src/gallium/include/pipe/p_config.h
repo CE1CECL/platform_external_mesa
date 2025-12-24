@@ -149,7 +149,7 @@
 #endif
 
 #if !defined(PIPE_ARCH_LITTLE_ENDIAN) && !defined(PIPE_ARCH_BIG_ENDIAN)
-#error Unknown Endianness
+#define PIPE_ARCH_LITTLE_ENDIAN
 #endif
 
 /*
